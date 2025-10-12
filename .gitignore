@@ -1,0 +1,99 @@
+# ===============================================
+# 🧠 .gitignore para proyectos de Machine Learning
+# Compatible con Coursera ML / CS229 / IA Infraestructura
+# ===============================================
+
+# --- Archivos de Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+*.ipynb_checkpoint.json
+
+# --- Datasets y resultados ---
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.h5
+*.hdf5
+*.pkl
+*.sav
+*.npy
+*.npz
+*.model
+*.ckpt
+*.onnx
+*.joblib
+
+# --- Modelos entrenados ---
+models/
+checkpoints/
+weights/
+outputs/
+runs/
+logs/
+results/
+
+# --- Entornos virtuales ---
+.env
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# --- Configuración IDE / OS ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Archivos temporales ---
+*.tmp
+*.temp
+*.cache
+.cache/
+__MACOSX/
+tmp/
+temp/
+
+# --- Archivos comprimidos ---
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# --- Archivos grandes (manual) ---
+# Añade aquí los nombres de datasets o modelos grandes si los usas:
+# ejemplo:
+# data/consumo_energia.csv
+# models/modelo_entrenado.h5
+
+# --- Notebooks ejecutados (si quieres evitar subir outputs pesados) ---
+# *.ipynb
+
+# --- Archivos de sistema ---
+ehthumbs.db
+Icon?
+Network Trash Folder
+Temporary Items
+
+# --- directorio referencia
+referencia/
+
